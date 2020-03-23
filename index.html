@@ -2,7 +2,12 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="pages/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Путешествия по России">
+    <meta name="author" content="Евгения 'Shigatsi' Зубкова">
+    <meta name="keywords" content="путешествия, Россия, поезда, электрички">
     <title>Путешествия по России</title>
   </head>
   <body>
@@ -13,15 +18,15 @@
         <p class="header__lang">EN</p>
       </header>
       <main class="content">
-        <div class="lead">
+        <section class="lead">
           <h2 class="lead__subtitle">Путешествия по России</h2>
           <p class="lead__subtite">Настоящая страна не в выпусках новостей, а здесь.</p>
           <div class="lead__image">
 
           </div>
           <p class="lead__caption">ваша полка — верхняя</p>
-        </div>
-        <div class="intro">
+        </section>
+        <section class="intro">
           <h2 class="intro__title">Чего мы там не видели?</h2>
           <p class="intro__paragraph">
             По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
@@ -33,8 +38,8 @@
             <p class="intro__paragraph">Природных заповедников 105</p>
             <p class="intro__paragraph"> Аэропортов 241</p>
           </div>
-        </div>
-        <div class="gallery">
+        </section>
+        <section class="gallery">
           <img class="gallery__image" src="#" alt="Вид из окна поезда">
           <img class="gallery__image" src="#" alt="Облака и горы">
           <img class="gallery__image" src="#" alt="Волк на камне в степи">
@@ -47,8 +52,8 @@
           <img class="gallery__image" src="#" alt="Степь и горы">
           <img class="gallery__image" src="#" alt="Озеро">
           <img class="gallery__image" src="#" alt="Горы в тумане">
-        </div>
-        <div class="places">
+        </section>
+        <section class="places">
           <div class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
@@ -99,8 +104,8 @@
               <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
             </div>
           </div>
-        </div>
-        <div class="video">
+        </section>
+        <section class="video">
           <h2 class="video__title">В глубины Земли и в дальний космос</h2>
           <p class="video__content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
           <div class="video__container">
@@ -119,9 +124,44 @@
               <p class="video__duration">Director: Alexander Khudokon</p>
             </a>
           </div>
-        </div>
-
+        </section>
+        <section class="comments">
+          <h2 class="comments__content-title">Фотографы, снимающие Россию</h2>
+          <p class="comments__content-subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
+          <div class="comments__container">
+            <div class="comment">
+              <img class="comment__image" src="#" alt="Виктор Лягушкин">
+              <p class="comment__author">Виктор Лягушкин</p>
+              <p class="comment__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</p>
+            </div>
+            <div class="comment">
+              <img class="comment__image" src="#" alt="Иван Хафизов">
+              <p class="comment__author">Иван Хафизов</p>
+              <p class="comment__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»</p>
+            </div>
+            <div class="comment">
+              <img class="comment__image" src="#" alt="Сергей Максимишин">
+              <p class="comment__author">Сергей Максимишин</p>
+              <p class="comment__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как им плохо, то ты сволочь и всё очернил.»</p>
+            </div>
+            <div class="cover">
+              <img class="cover__cover-bg" src="#" alt="Ж/д сртировочная">
+              <h2 class="cover__title">До Байкала «на собаках»</h2>
+              <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
+            </div>
+          </div>
+        </section>
       </main>
+      <footer class="footer">
+        <nav class="footer_links">
+          <a class="footer__link" href="#">Карты</a>
+          <a class="footer__link" href="#">Погода</a>
+          <a class="footer__link" href="#">Расписание</a>
+          <a class="footer__link" href="#">Календарь</a>
+          <a class="footer__link" href="#">Путешествия</a>
+        </nav>
+        <p class="footer__copyright">&copy;2020 Евгения "Shigatsi" Зубкова</p>
+      </footer>
     </div>
   </body>
 </html>
