@@ -1,0 +1,33 @@
+@import url(./__logo/header__logo.css);
+@import url(./__lang/header__lang.css);
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  width:90%;
+  position: relative;
+  margin: 0 auto;
+  height:52px;
+}
+
+.header__logo{
+
+}
+
+.header__langs{
+  display: flex;
+  align-items: center;
+}
+
+.header__lang{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header__lang:hover{
+  opacity: .5;
+}
+
+.header__lang_active{
+  text-decoration: underline;
+}
