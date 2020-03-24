@@ -1,0 +1,35 @@
+@import url(./__);
+
+.intro{
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+
+.intro__title{
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 59px;
+  margin: 0;
+}
+
+.intro__main-text{
+  font-size: 14px;
+  line-height: 24px;
+  padding-top: 48px;
+  padding-bottom: 24px;
+  width: 692px;
+  margin: 0;
+}
+
+.intro__text{
+  margin: 0;
+  font-size: 13px;
+  line-height: 20px;
+}
+.intro__span-accent{
+  font-weight: bolder;
+}

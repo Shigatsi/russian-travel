@@ -1,0 +1,36 @@
+@import url(./__);
+
+.lead{
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 48px;
+  margin: 0 auto;
+  color: #FFFFFF;
+}
+
+.lead__title{
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 93px;
+  text-align: center;
+  margin: 0;
+}
+
+.lead__subtitle{
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  padding-top: 46px;
+  padding-bottom: 65px;
+  margin: 0;
+}
+
+.lead__caption{
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 16px;
+}

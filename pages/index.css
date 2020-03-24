@@ -1,7 +1,16 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/gallery/gallery.css);
 
 .page {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
   background: #2A2C2F;
   margin: 0 auto;
   font-family: 'Inter', Arial, sans-serif;
