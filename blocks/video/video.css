@@ -3,6 +3,7 @@
   color:#fff;
   margin:0 auto;
   padding-top: 102px;
+  padding-bottom: 102px;
 }
 
 
@@ -15,14 +16,13 @@
 
 .video__container{
   display:flex;
-  padding-top: 73px;
   justify-content: center;
   position:relative;
 }
 
 .video__item{
-  width: 456px;
-  height:288px;
+  width: 583px;
+  height:330px;
   margin-right: 16px;
   border-radius: 3%;
   color: #fff;

@@ -1,7 +1,7 @@
 /* @import url(./__); */
 
 .intro{
-  width: 80vw;
+  max-width: 985px;
   display: flex;
   flex-direction: column;
   padding-top: 80px;
@@ -21,7 +21,7 @@
   line-height: 24px;
   padding-top: 48px;
   padding-bottom: 24px;
-  width: 692px;
+  max-width: 692px;
   margin: 0;
 }
 

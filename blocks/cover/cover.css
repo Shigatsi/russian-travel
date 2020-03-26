@@ -12,6 +12,8 @@
   flex-direction: column;
   background-image: url(../../images/railway-hub.jpg);
   width: 100%;
+  max-width: 1184px;
+  margin:0 auto;
   height: 562px;
   background-size: cover;
 }
