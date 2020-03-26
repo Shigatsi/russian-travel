@@ -1,0 +1,33 @@
+.cards{
+  display: flex;
+  /* flex-wrap: wrap; */
+  max-width: 928px;
+  margin: 0 auto;
+}
+
+.cards__item{
+  max-width: 296px;
+  margin-right: 19px;
+}
+
+.cards__item :last-of-type{
+  margin-right: 0;
+}
+
+.cards__image{
+  border-radius: 50%;
+}
+
+.cards__quote{
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.cards__author{
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+}

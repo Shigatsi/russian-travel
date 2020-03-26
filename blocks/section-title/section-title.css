@@ -1,0 +1,11 @@
+@import url(./_place/section-title_place_place.css);
+@import url(./_place/section-title_place_video.css);
+@import url(./_place/section-title_place_comments.css);
+@import url(./_place/section-title_place_cover.css);
+
+.section-title{
+font-weight: 900;
+font-size: 72px;
+color: #fff;
+margin: 0 auto;
+}
