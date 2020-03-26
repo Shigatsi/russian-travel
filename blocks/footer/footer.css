@@ -1,0 +1,38 @@
+.footer{
+  min-height: 129px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 102px auto 0;
+  padding-bottom: 48px;
+  max-width: 928px;
+}
+
+.footer__nav{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__list-item{
+  margin-right: 18px;
+}
+
+.footer__link{
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+
+}
+
+.footer__copyright{
+  max-width: 283px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #fff;
+  margin: 0;
+}
