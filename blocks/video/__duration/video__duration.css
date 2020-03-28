@@ -1,0 +1,14 @@
+.video__duration{
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.3em;
+  padding-left: 30px;
+  padding-top: 54px;
+  margin: 0;
+}
+
+@media screen and (max-width:768px){
+  .video__duration{
+    padding-top: 17px;
+  }
+}

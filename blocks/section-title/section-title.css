@@ -1,11 +1,23 @@
 @import url(./_place/section-title_place_place.css);
 @import url(./_place/section-title_place_video.css);
 @import url(./_place/section-title_place_comments.css);
-@import url(./_place/section-title_place_cover.css);
+
 
 .section-title{
 font-weight: 900;
-font-size: 72px;
+font-size: 4.5em;
 color: #fff;
 margin: 0 auto;
+}
+
+@media screen and (max-width:768px){
+  .section-title{
+    font-size: 2.6em;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .section-title{
+    font-size: 2em;
+  }
 }

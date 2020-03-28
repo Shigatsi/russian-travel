@@ -1,0 +1,14 @@
+
+.place__paragraphs{
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  max-width: 484px;
+  color: #fff;
+}
+
+@media screen and (max-width: 730px){
+  .place__paragraphs{
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,10 @@
+.place__header{
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 730px){
+  .place__header{
+    flex-direction: column;
+    justify-content: left;
+  }
+}

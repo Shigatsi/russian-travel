@@ -1,3 +1,8 @@
+@import url(./__nav/footer__nav.css);
+@import url(./__list-item/footer__list-item.css);
+@import url(./__link/footer__link.css);
+@import url(./__copyright/footer__copyright.css);
+
 .footer{
   min-height: 129px;
   display: flex;
@@ -6,33 +11,20 @@
   align-items: flex-end;
   margin: 102px auto 0;
   padding-bottom: 48px;
-  max-width: 928px;
+  max-width: 1184px;
 }
 
-.footer__nav{
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+@media screen and (max-width: 1024px) {
+  .footer {
+      max-width: 95vw;
+  }
 }
 
-.footer__list-item{
-  margin-right: 18px;
-}
-
-.footer__link{
-  color: #fff;
-  font-size: 24px;
-  text-decoration: none;
-
-}
-
-.footer__copyright{
-  max-width: 283px;
-  font-size: 14px;
-  line-height: 20px;
-  text-align: right;
-  color: #fff;
-  margin: 0;
+@media screen and (max-width: 375px) {
+  .footer {
+    margin: 40px auto 0;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 24px;
+  }
 }

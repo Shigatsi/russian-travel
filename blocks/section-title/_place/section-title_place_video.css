@@ -3,3 +3,17 @@
   line-height: 78px;
   max-width: 928px;
 }
+
+@media screen and (max-width: 768px){
+  .section-title_place_video{
+    line-height: 46px;
+    max-width: 60vw;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .section-title_place_video{
+    max-width: 100%;
+    line-height: 35px;
+  }
+}

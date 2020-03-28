@@ -1,5 +1,6 @@
-/* @import url(./__logo/header__logo.css);
-@import url(./__lang/header__lang.css); */
+@import url(./__logo/header__logo.css);
+@import url(./__langs/header__langs.css);
+@import url(./__lang/header__lang.css);
 
 .header{
   display: flex;
@@ -9,29 +10,4 @@
   margin: 0 auto;
   height:52px;
   padding-top: 30px;
-}
-
-.header__logo{
-}
-
-.header__langs{
-  display: flex;
-  align-items: center;
-}
-
-.header__lang{
-  text-decoration: none;
-  color: #ffffff;
-  margin-right: 18px;
-  font-size: 24px;
-  line-height: 23px;
-  cursor: pointer;
-}
-
-.header__lang:hover{
-  opacity: .5;
-}
-
-.header__lang_active{
-  text-decoration: underline;
 }

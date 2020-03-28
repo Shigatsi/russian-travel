@@ -6,3 +6,17 @@
   text-align: center;
   color: #fff;
 }
+
+@media screen and (max-width: 768px){
+  .section-subtitle{
+    margin: 24px auto 56px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .section-subtitle{
+    margin: 16px auto 24px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+}

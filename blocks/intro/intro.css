@@ -1,4 +1,7 @@
-/* @import url(./__); */
+@import url(./__title/intro__title.css);
+@import url(./__main-text/intro__main-text.css);
+@import url(./__text/intro__text.css);
+@import url(./__span-accent/intro__span-accent.css);
 
 .intro{
   max-width: 985px;
@@ -9,27 +12,14 @@
   margin: 0 auto;
 }
 
-.intro__title{
-  font-weight: 900;
-  font-size: 54px;
-  line-height: 59px;
-  margin: 0;
+@media screen and (max-width:1024px){
+  .intro{
+    max-width: 95vw;
+  }
 }
 
-.intro__main-text{
-  font-size: 14px;
-  line-height: 24px;
-  padding-top: 48px;
-  padding-bottom: 24px;
-  max-width: 692px;
-  margin: 0;
-}
-
-.intro__text{
-  margin: 0;
-  font-size: 13px;
-  line-height: 20px;
-}
-.intro__span-accent{
-  font-weight: bolder;
+@media screen and (max-width: 730px){
+  .intro{
+    padding-top: 60px;
+  }
 }

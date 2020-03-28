@@ -1,34 +1,25 @@
+@import url(./__item/cards__item.css);
+@import url(./__image/cards__image.css);
+@import url(./__quote/cards__quote.css);
+@import url(./__author/cards__author.css);
+
 .cards{
   display: flex;
-  /* flex-wrap: wrap; */
   max-width: 1184px;
   justify-content: center;
   margin: 0 auto;
 }
 
-.cards__item{
-  max-width: 296px;
-  margin-right: 19px;
+@media screen and (max-width: 768px){
+  .cards{
+    max-width:50vw;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
-.cards__item :last-of-type{
-  margin-right: 0;
-}
-
-.cards__image{
-  border-radius: 50%;
-}
-
-.cards__quote{
-  font-size: 14px;
-  line-height: 24px;
-  color: #fff;
-  margin-bottom: 16px;
-}
-
-.cards__author{
-  font-weight: 900;
-  font-size: 14px;
-  line-height: 22px;
-  color: #fff;
+@media screen and (max-width: 375px){
+  .cards{
+    max-width:100%;
+  }
 }

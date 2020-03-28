@@ -1,3 +1,11 @@
+@import url(./__content-subtitle/video__content-subtitle.css);
+@import url(./__container/video__container.css);
+@import url(./__item/video__item.css);
+@import url(./__icon-play/video__icon-play.css);
+@import url(./__duration/video__duration.css);
+@import url(./__title/video__title.css);
+@import url(./__subtitle/video__subtitle.css);
+
 .video{
   width:90vw;
   color:#fff;
@@ -6,74 +14,9 @@
   padding-bottom: 102px;
 }
 
-
-.video__content-subtitle{
-  font-size: 24px;
-  line-height: 35px;
-  text-align: center;
-  padding-top: 48px;
-}
-
-.video__container{
-  display:flex;
-  justify-content: center;
-  position:relative;
-}
-
-.video__item{
-  width: 583px;
-  height:330px;
-  margin-right: 16px;
-  border-radius: 3%;
-  color: #fff;
-  text-decoration: none;
-  background-size: cover;
-  opacity: .7;
-}
-
-.video__item:first-of-type{
-  background-image: url(../../images/kamchatka.jpg);
-}
-
-.video__item:last-of-type{
-  background-image: url(../../images/observatory.jpg);
-}
-
-.video__item:hover{
-  opacity: .5;
-}
-
-.video__icon_play{
-  padding-top: 40px;
-  width: 40px;
-  height: 40px;
-  padding-left: 30px;
-  margin: 0;
-}
-
-.video__duration{
-  font-size: 12px;
-  line-height: 13px;
-  letter-spacing: 0.3em;
-  padding-left: 30px;
-  padding-top: 54px;
-  margin: 0;
-}
-
-.video__title{
-  font-weight: 900;
-  font-size: 36px;
-  line-height: 39px;
-  width: 322px;
-  padding-left: 30px;
-  padding-top: 12px;
-  margin: 0;
-}
-
-.video__subtitle{
-  font-size: 14px;
-  line-height: 15px;
-  padding-left: 30px;
-  padding-top: 18px;
-  margin: 0;
+@media screen and (max-width: 375px){
+  .video{
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
 }

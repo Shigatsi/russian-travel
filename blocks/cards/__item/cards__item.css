@@ -1,0 +1,22 @@
+.cards__item{
+  max-width: 296px;
+  margin-right: 19px;
+}
+
+@media screen and (max-width: 768px){
+  .cards__item{
+    margin:0 auto 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards__item:last-of-type{
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .cards__item:first-of-type{
+    padding-top:20px;
+  }
+}

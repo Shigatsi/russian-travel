@@ -1,0 +1,11 @@
+.cards__author{
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+}
+@media screen and (max-width: 768px){
+  .cards__author{
+    margin: 10px auto 24px;
+  }
+}

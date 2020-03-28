@@ -1,0 +1,22 @@
+.cover__link{
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../../images/railway-hub.jpg);
+  width: 100%;
+  max-width: 1184px;
+  margin:0 auto;
+  background-size: cover;
+}
+
+@media screen and (max-width: 375px){
+  .cover__link{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.cover__link:hover{
+  opacity: .5;
+}

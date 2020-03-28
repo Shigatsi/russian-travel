@@ -1,5 +1,33 @@
 .section-title_place_place{
-  width: 440px;
+  width: 460px;
   padding-bottom: 40px;
   line-height: 65px;
+}
+
+@media screen and (max-width:1024px){
+  .section-title_place_place{
+    width: 440px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .section-title_place_place{
+    width: 340px;
+    line-height: 2.5em;
+  }
+}
+
+@media screen and (max-width: 730px){
+  .section-title_place_place{
+    padding:0;
+    line-height: 1.5em;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .section-title_place_place{
+    padding-bottom:32px;
+    padding-left:16px;
+    width: 100%;
+  }
 }

@@ -1,0 +1,10 @@
+.video__container{
+  display:flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 730px){
+  .video__container {
+    flex-wrap: wrap;
+  }
+}
