@@ -2,6 +2,7 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 
+
 .cover{
   margin-top: 102px;
 }
@@ -14,7 +15,6 @@
 
 @media screen and (max-width: 320px){
   .cover{
-
     margin-top: 64px;
   }
 }

@@ -6,7 +6,9 @@
   max-width: 1184px;
   height: 594px;
   margin:0 auto;
+  position: relative;
   background-size: cover;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1024px){
@@ -35,6 +37,6 @@
   }
 }
 
-.cover__link:hover{
-  opacity: .5;
+.cover__link:hover .overlay{
+  background-color: rgba(0, 0, 0, .5);
 }

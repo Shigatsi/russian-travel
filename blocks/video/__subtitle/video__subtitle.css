@@ -2,4 +2,9 @@
   font-size: 14px;
   line-height: 15px;
   margin:0;
+  z-index: 1;
 }
+
+/* .video__subtitle:hover{
+  opacity: .8;
+} */

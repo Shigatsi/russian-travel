@@ -1,23 +1,28 @@
 
 .cover__subtitle{
   color: #fff;
-  margin: 134px auto 48px;
+  margin: auto auto 48px;
   font-size: 18px;
   line-height: 26px;
   text-align: center;
   max-width: 413px;
+  z-index: 2;
 }
+
+/* .cover__subtitle:hover{
+  opacity: .8;
+} */
 
 @media screen and (max-width: 1024px){
   .cover__subtitle{
-    margin: 73px auto 48px;
+    margin: auto auto 48px;
   }
 }
 
 
 @media screen and (max-width: 768px){
   .cover__subtitle{
-     margin: 45px auto 40px;
+     margin: auto auto 40px;
   }
 }
 
@@ -25,7 +30,7 @@
   .cover__subtitle{
     font-size: 14px;
     line-height: 17px;
-    margin: 7px auto 24px;
+    margin: auto auto 24px;
     max-width: calc(100% - 32px);
   }
 }

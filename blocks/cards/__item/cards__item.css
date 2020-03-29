@@ -1,6 +1,12 @@
 .cards__item{
-  max-width: 296px;
+  max-width: 382px;
   margin-right: 19px;
+}
+
+@media screen and (max-width: 1024px){
+  .cards__item{
+    max-width: 296px;
+  }
 }
 
 @media screen and (max-width: 768px){

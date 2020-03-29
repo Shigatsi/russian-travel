@@ -10,7 +10,7 @@
 .place{
   display: flex;
   flex-wrap: wrap;
-  max-width: 928px;
+  max-width: 984px;
   margin:0 auto;
   padding-bottom: 72px;
 }

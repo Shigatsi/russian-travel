@@ -6,7 +6,12 @@
   text-align: center;
   line-height: 78px;
   margin-top: 274px;
+  z-index: 1;
 }
+
+/* .cover__title:hover{
+  opacity: .8;
+} */
 
 @media screen and (max-width: 1024px){
   .cover__title{

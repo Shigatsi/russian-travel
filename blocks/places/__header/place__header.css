@@ -1,7 +1,15 @@
 .place__header{
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 60px;
 }
+
+@media screen and (max-width:768px){
+  .place__header{
+  margin-bottom: 32px;
+  }
+}
+
 @media screen and (max-width: 730px){
   .place__header{
     flex-direction: column;
