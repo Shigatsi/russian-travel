@@ -8,7 +8,13 @@
 
 @media screen and (max-width: 375px){
   .cover{
-    margin-top: 0;
-    padding-top: 48px;
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .cover{
+
+    margin-top: 64px;
   }
 }

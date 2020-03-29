@@ -5,18 +5,19 @@
   margin: 0 auto;
   text-align: center;
   line-height: 78px;
-  padding-top: 211px;
+  margin-top: 274px;
 }
 
 @media screen and (max-width: 1024px){
   .cover__title{
+    margin-top: 211px;
     max-width: 720px;
   }
 }
 
 @media screen and (max-width: 768px){
   .cover__title{
-    padding-top: 165px;
+    margin-top: 165px;
   }
 }
 
@@ -29,8 +30,14 @@
 
 @media screen and (max-width: 375px){
   .cover__title{
-    padding-top: 80px;
+    margin-top: 104px;
     font-size: 32px;
     line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .cover__title{
+    margin-top: 64px;
   }
 }

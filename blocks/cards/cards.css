@@ -10,16 +10,22 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 1280px){
+  .cards{
+    max-width: calc(100% - 96px);
+  }
+}
+
 @media screen and (max-width: 768px){
   .cards{
-    max-width:50vw;
+    max-width: 50%;
     flex-direction: column;
     text-align: center;
   }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 600px){
   .cards{
-    max-width:100%;
+    max-width:calc(100% - 32px);
   }
 }

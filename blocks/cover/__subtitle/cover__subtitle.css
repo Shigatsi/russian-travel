@@ -1,31 +1,32 @@
 
 .cover__subtitle{
   color: #fff;
-  margin: 73px auto 0;
-  padding-bottom: 110px;
+  margin: 134px auto 48px;
+  /* padding-bottom: 110px; */
   font-size: 18px;
   line-height: 26px;
   text-align: center;
   max-width: 413px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
   .cover__subtitle{
-     margin: 45px auto 0;
+    margin: 73px auto 48px;
   }
 }
 
+
 @media screen and (max-width: 768px){
   .cover__subtitle{
-     margin: 7px auto 0;
-     font-size: 14px;
-     line-height: 17px;
+     margin: 45px auto 40px;
   }
 }
 
 @media screen and (max-width: 375px){
   .cover__subtitle{
-    padding-bottom: 50px;
-    max-width: 288px;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 7px auto 24px;
+    max-width: calc(100% - 32px);
   }
 }

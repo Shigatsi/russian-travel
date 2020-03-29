@@ -4,27 +4,42 @@
 @import url(./__copyright/footer__copyright.css);
 
 .footer{
-  min-height: 129px;
+  min-height: 23px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
-  margin: 102px auto 0;
+  margin: 160px auto 0;
   padding-bottom: 48px;
   max-width: 1184px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .footer {
-      max-width: 95vw;
+      max-width: calc(100% - 96px);
   }
 }
 
+
+@media screen and (max-width: 1024px) {
+  .footer {
+      margin: 102px auto 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+      max-width: calc(100% - 46px);
+  }
+}
+
+
 @media screen and (max-width: 375px) {
   .footer {
-    margin: 40px auto 0;
+    margin: 64px auto 0;
     flex-direction: column;
     align-items: flex-start;
     padding-bottom: 24px;
+    max-width: calc(100% - 32px);
   }
 }

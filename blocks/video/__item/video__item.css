@@ -8,6 +8,7 @@
   justify-content: space-between;
   text-decoration: none;
   background-size: cover;
+  margin-top: 43px;
 }
 
 .video__item:first-of-type{

@@ -22,5 +22,6 @@
   .place__paragraph{
     padding-top: 24px;
     padding-left: 16px;
+    max-width: calc(100% - 32px);
   }
 }
