@@ -5,3 +5,7 @@
   color: #fff;
   text-decoration-line: underline;
 }
+
+.place__website-url:hover{
+  opacity: .5;
+}

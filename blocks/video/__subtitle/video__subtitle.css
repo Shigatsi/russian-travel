@@ -1,6 +1,13 @@
 .video__subtitle{
   font-size: 14px;
   line-height: 15px;
+  margin:0;
+}
+
+
+/* .video__subtitle{
+  font-size: 14px;
+  line-height: 15px;
   padding-left: 30px;
   padding-top: 18px;
   margin: 0;
@@ -10,4 +17,4 @@
   .video__subtitle{
     padding-top: 8px;
   }
-}
+} */

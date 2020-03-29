@@ -12,7 +12,7 @@
   flex-wrap: wrap;
   max-width: 928px;
   margin:0 auto;
-  padding-bottom: 5.1em;
+  padding-bottom: 72px;
 }
 
 .place:last-of-type{
@@ -21,24 +21,25 @@
 
 @media screen and (max-width:1024px){
   .place{
-    max-width: 95vw;
+    max-width: calc(100% - 96px);
   }
 }
 
 @media screen and (max-width:768px){
   .place{
-    padding-bottom: 4.5em;
-  }
-}
-
-@media screen and (max-width: 730px){
-  .place{
-    padding-bottom: 1.5em;
+    max-width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 375px){
   .place{
     max-width: 100%;
+    padding-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .place{
+    padding-bottom: 48px;
   }
 }

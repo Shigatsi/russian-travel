@@ -1,7 +1,29 @@
 .video__icon-play{
+  width: 41px;
+  height: 41px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+@media screen and (max-width:768px){
+  .video__icon-play{
+    margin-top: 24px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width:320px){
+  .video__icon-play{
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+}
+
+
+/* .video__icon-play{
   padding-top: 40px;
-  width: 40px;
-  height: 40px;
+  width: 41px;
+  height: 41px;
   padding-left: 30px;
   margin: 0;
 }
@@ -10,4 +32,4 @@
   .video__icon-play{
     padding-top: 24px;
   }
-}
+} */

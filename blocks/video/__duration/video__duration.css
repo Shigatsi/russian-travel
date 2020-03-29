@@ -2,6 +2,21 @@
   font-size: 12px;
   line-height: 13px;
   letter-spacing: 0.3em;
+  margin-bottom:12px;
+  margin-top: 0;
+}
+
+@media screen and (max-width:768px){
+  .video__duration{
+    margin-bottom:12px;
+  }
+}
+
+
+/* .video__duration{
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.3em;
   padding-left: 30px;
   padding-top: 54px;
   margin: 0;
@@ -11,4 +26,4 @@
   .video__duration{
     padding-top: 17px;
   }
-}
+} */

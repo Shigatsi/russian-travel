@@ -7,16 +7,61 @@
 @import url(./__subtitle/video__subtitle.css);
 
 .video{
-  width:90vw;
+  max-width:90vw;
   color:#fff;
   margin:0 auto;
   padding-top: 102px;
   padding-bottom: 102px;
 }
 
+@media screen and (max-width: 1024px){
+  .video{
+    max-width:calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 768px){
+  .video{
+    max-width:calc(100% - 48px);
+  }
+}
+
 @media screen and (max-width: 375px){
   .video{
+    max-width:calc(100% - 12px);
     padding-top: 64px;
     padding-bottom: 64px;
+  }
+}
+
+.video_features{
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width:1024px){
+  .video_features{
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .video_features{
+  margin-left: 24px;
+  margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width:375px){
+  .video_features{
+    margin-left: 24px;
+   margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width:320px){
+  .video_features{
+    margin-left: 16px;
+  margin-bottom: 16px;
   }
 }

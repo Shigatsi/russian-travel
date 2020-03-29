@@ -1,8 +1,11 @@
 .video__item{
   width: 583px;
-  height:330px;
-  border-radius: 3%;
+  height:322px;
+  border-radius: 5%;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-decoration: none;
   background-size: cover;
 }
@@ -20,8 +23,15 @@
 
 @media screen and (max-width:768px){
   .video__item{
-    width: 100%;
+    width: 352px;
     height:200px;
+  }
+}
+
+@media screen and (max-width:375px){
+  .video__item{
+    width: calc(100% - 32);
+    height:192px;
   }
 }
 
