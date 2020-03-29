@@ -1,6 +1,7 @@
 @import url(./__title/intro__title.css);
 @import url(./__main-text/intro__main-text.css);
-@import url(./__text/intro__text.css);
+@import url(./__facts/intro__facts.css);
+@import url(./__fact/intro__fact.css);
 @import url(./__span-accent/intro__span-accent.css);
 
 .intro{
