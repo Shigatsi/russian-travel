@@ -5,9 +5,28 @@
 .header{
   display: flex;
   justify-content: space-between;
-  width:90vw;
+  max-width: 1184px;
   position: relative;
   margin: 0 auto;
   height:52px;
   padding-top: 30px;
+}
+
+@media screen and (max-width:1240px){
+  .header {
+    max-width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width:720px){
+  .header {
+    max-width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width:375px){
+  .header {
+    max-width: calc(100% - 32px);
+    padding-top: 16px;
+  }
 }
