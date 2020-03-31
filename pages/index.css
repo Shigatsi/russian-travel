@@ -1,4 +1,5 @@
 @import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
@@ -11,30 +12,6 @@
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  src: url("../fonts/inter-regular.woff2") format("woff2"),
-       url("../fonts/inter-regular.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 700;
-  src: url("../fonts/inter-700.woff2") format("woff2"),
-       url("../fonts/inter-700.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  src: url("../fonts/inter-900.woff2") format("woff2"),
-       url("../fonts/inter-900.woff") format("woff");
-}
 
 .page {
   -moz-osx-font-smoothing: grayscale;

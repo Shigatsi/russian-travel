@@ -12,8 +12,10 @@
 
 @media screen and (max-width:768px){
   .section-title_place_place{
-    width: 340px;
-    line-height: 2.5em;
+    /* width: 340px;
+    line-height: 2.5em; */
+    max-width: 320px;
+    line-height: 46px;
   }
 }
 
