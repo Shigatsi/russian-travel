@@ -11,3 +11,15 @@
   margin: 0 auto;
   color: #FFFFFF;
 }
+
+@media screen and (max-width:1024px){
+  .lead{
+    max-width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width:768px){
+  .lead{
+    max-width: 100%;
+  }
+}

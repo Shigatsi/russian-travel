@@ -21,3 +21,9 @@
     line-height: 23px;
   }
 }
+
+@media screen and (max-width: 375px){
+  .section-subtitle{
+    max-width: calc(100% - 32px);
+  }
+}

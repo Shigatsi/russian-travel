@@ -15,12 +15,19 @@
 
 @media screen and (max-width:1024px){
   .intro{
-    max-width: 95vw;
+    max-width: calc(100% - 96px);
+  }
+}
+@media screen and (max-width: 768px){
+  .intro{
+    max-width: calc(100% - 48px);
   }
 }
 
-@media screen and (max-width: 730px){
+
+@media screen and (max-width: 375px){
   .intro{
-    padding-top: 60px;
+    padding-top: 64px;
+    max-width: calc(100% - 32px);
   }
 }
