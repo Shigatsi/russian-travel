@@ -22,7 +22,8 @@
 @media screen and (max-width: 730px){
   .section-title_place_place{
     padding:0;
-    line-height: 2.1em;
+    line-height: 42px;
+    padding-left: 24px;
   }
 }
 
