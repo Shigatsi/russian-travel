@@ -14,20 +14,21 @@
 }
 
 @media screen and (max-width:768px){
-
   .place__paragraphs{
-    padding-left: 24px;
+    padding-left: 28px;
   }
 }
 
 @media screen and (max-width: 730px){
   .place__paragraphs{
     max-width: calc(100% - 48px);
+    padding-left: 24px;
   }
 }
 
 @media screen and (max-width: 375px){
   .place__paragraphs{
     max-width: calc(100% - 32px);
+    padding-left: 16px;
   }
 }

@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 375px){
   .video{
-    max-width:calc(100% - 12px);
+    max-width:calc(100% - 32px);
     padding-top: 64px;
     padding-bottom: 64px;
   }
